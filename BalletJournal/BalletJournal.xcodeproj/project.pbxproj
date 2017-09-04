@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8071031F5CD2BA0096B0B7 /* nycdp_celinecassone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8071021F5CD2BA0096B0B7 /* nycdp_celinecassone.jpg */; };
+		DDB8E0A81F59AFCA009A7D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0A71F59AFCA009A7D61 /* main.m */; };
+		DDB8E0AB1F59AFCA009A7D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0AA1F59AFCA009A7D61 /* AppDelegate.m */; };
+		DDB8E0B11F59AFCA009A7D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB8E0AF1F59AFCA009A7D61 /* Main.storyboard */; };
+		DDB8E0B41F59AFCA009A7D61 /* BalletJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0B21F59AFCA009A7D61 /* BalletJournal.xcdatamodeld */; };
+		DDB8E0B61F59AFCB009A7D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB8E0B51F59AFCB009A7D61 /* Assets.xcassets */; };
+		DDB8E0B91F59AFCB009A7D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB8E0B71F59AFCB009A7D61 /* LaunchScreen.storyboard */; };
+		DDB8E0C21F59B132009A7D61 /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0C11F59B132009A7D61 /* MyUINavigationController.m */; };
+		DDB8E0C51F59B1D5009A7D61 /* MyUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0C41F59B1D5009A7D61 /* MyUITableViewController.m */; };
+		DDB8E0C81F59B24E009A7D61 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0C71F59B24E009A7D61 /* MyUIViewController.m */; };
+		DDB8E0CF1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0CC1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.m */; };
+		DDB8E0D01F59BE82009A7D61 /* BalletJournalEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0CE1F59BE82009A7D61 /* BalletJournalEntity.m */; };
+		DDB8E0D31F59BF0B009A7D61 /* MyUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8E0D21F59BF0B009A7D61 /* MyUITableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD8071021F5CD2BA0096B0B7 /* nycdp_celinecassone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nycdp_celinecassone.jpg; sourceTree = "<group>"; };
+		DDB8E0A31F59AFCA009A7D61 /* BalletJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalletJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB8E0A71F59AFCA009A7D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDB8E0A91F59AFCA009A7D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB8E0AA1F59AFCA009A7D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB8E0B01F59AFCA009A7D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB8E0B31F59AFCA009A7D61 /* BalletJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BalletJournal.xcdatamodel; sourceTree = "<group>"; };
+		DDB8E0B51F59AFCB009A7D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB8E0B81F59AFCB009A7D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB8E0BA1F59AFCB009A7D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB8E0C01F59B132009A7D61 /* MyUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		DDB8E0C11F59B132009A7D61 /* MyUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		DDB8E0C31F59B1D5009A7D61 /* MyUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableViewController.h; sourceTree = "<group>"; };
+		DDB8E0C41F59B1D5009A7D61 /* MyUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewController.m; sourceTree = "<group>"; };
+		DDB8E0C61F59B24E009A7D61 /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		DDB8E0C71F59B24E009A7D61 /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		DDB8E0C91F59B4AA009A7D61 /* DWHandlesMOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWHandlesMOC.h; sourceTree = "<group>"; };
+		DDB8E0CA1F59B522009A7D61 /* DWHandlesBalletJournalEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWHandlesBalletJournalEntity.h; sourceTree = "<group>"; };
+		DDB8E0CB1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BalletJournalEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DDB8E0CC1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BalletJournalEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DDB8E0CD1F59BE82009A7D61 /* BalletJournalEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalletJournalEntity.h; sourceTree = "<group>"; };
+		DDB8E0CE1F59BE82009A7D61 /* BalletJournalEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalletJournalEntity.m; sourceTree = "<group>"; };
+		DDB8E0D11F59BF0B009A7D61 /* MyUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableViewCell.h; sourceTree = "<group>"; };
+		DDB8E0D21F59BF0B009A7D61 /* MyUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB8E0A01F59AFCA009A7D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB8E09A1F59AFCA009A7D61 = {
+			isa = PBXGroup;
+			children = (
+				DDB8E0CB1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.h */,
+				DDB8E0CC1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.m */,
+				DDB8E0CD1F59BE82009A7D61 /* BalletJournalEntity.h */,
+				DDB8E0CE1F59BE82009A7D61 /* BalletJournalEntity.m */,
+				DDB8E0A51F59AFCA009A7D61 /* BalletJournal */,
+				DDB8E0A41F59AFCA009A7D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB8E0A41F59AFCA009A7D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8E0A31F59AFCA009A7D61 /* BalletJournal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB8E0A51F59AFCA009A7D61 /* BalletJournal */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8E0A91F59AFCA009A7D61 /* AppDelegate.h */,
+				DDB8E0AA1F59AFCA009A7D61 /* AppDelegate.m */,
+				DDB8E0AF1F59AFCA009A7D61 /* Main.storyboard */,
+				DDB8E0C91F59B4AA009A7D61 /* DWHandlesMOC.h */,
+				DDB8E0CA1F59B522009A7D61 /* DWHandlesBalletJournalEntity.h */,
+				DDB8E0C01F59B132009A7D61 /* MyUINavigationController.h */,
+				DDB8E0C11F59B132009A7D61 /* MyUINavigationController.m */,
+				DDB8E0D11F59BF0B009A7D61 /* MyUITableViewCell.h */,
+				DDB8E0D21F59BF0B009A7D61 /* MyUITableViewCell.m */,
+				DDB8E0C31F59B1D5009A7D61 /* MyUITableViewController.h */,
+				DDB8E0C41F59B1D5009A7D61 /* MyUITableViewController.m */,
+				DDB8E0C61F59B24E009A7D61 /* MyUIViewController.h */,
+				DDB8E0C71F59B24E009A7D61 /* MyUIViewController.m */,
+				DDB8E0B51F59AFCB009A7D61 /* Assets.xcassets */,
+				DDB8E0B71F59AFCB009A7D61 /* LaunchScreen.storyboard */,
+				DD8071021F5CD2BA0096B0B7 /* nycdp_celinecassone.jpg */,
+				DDB8E0BA1F59AFCB009A7D61 /* Info.plist */,
+				DDB8E0B21F59AFCA009A7D61 /* BalletJournal.xcdatamodeld */,
+				DDB8E0A61F59AFCA009A7D61 /* Supporting Files */,
+			);
+			path = BalletJournal;
+			sourceTree = "<group>";
+		};
+		DDB8E0A61F59AFCA009A7D61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8E0A71F59AFCA009A7D61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB8E0A21F59AFCA009A7D61 /* BalletJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB8E0BD1F59AFCB009A7D61 /* Build configuration list for PBXNativeTarget "BalletJournal" */;
+			buildPhases = (
+				DDB8E09F1F59AFCA009A7D61 /* Sources */,
+				DDB8E0A01F59AFCA009A7D61 /* Frameworks */,
+				DDB8E0A11F59AFCA009A7D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BalletJournal;
+			productName = BalletJournal;
+			productReference = DDB8E0A31F59AFCA009A7D61 /* BalletJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB8E09B1F59AFCA009A7D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dawn E. Walker";
+				TargetAttributes = {
+					DDB8E0A21F59AFCA009A7D61 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB8E09E1F59AFCA009A7D61 /* Build configuration list for PBXProject "BalletJournal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB8E09A1F59AFCA009A7D61;
+			productRefGroup = DDB8E0A41F59AFCA009A7D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB8E0A21F59AFCA009A7D61 /* BalletJournal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB8E0A11F59AFCA009A7D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB8E0B91F59AFCB009A7D61 /* LaunchScreen.storyboard in Resources */,
+				DDB8E0B61F59AFCB009A7D61 /* Assets.xcassets in Resources */,
+				DDB8E0B11F59AFCA009A7D61 /* Main.storyboard in Resources */,
+				DD8071031F5CD2BA0096B0B7 /* nycdp_celinecassone.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB8E09F1F59AFCA009A7D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB8E0B41F59AFCA009A7D61 /* BalletJournal.xcdatamodeld in Sources */,
+				DDB8E0CF1F59BE82009A7D61 /* BalletJournalEntity+CoreDataProperties.m in Sources */,
+				DDB8E0D31F59BF0B009A7D61 /* MyUITableViewCell.m in Sources */,
+				DDB8E0AB1F59AFCA009A7D61 /* AppDelegate.m in Sources */,
+				DDB8E0C81F59B24E009A7D61 /* MyUIViewController.m in Sources */,
+				DDB8E0D01F59BE82009A7D61 /* BalletJournalEntity.m in Sources */,
+				DDB8E0C51F59B1D5009A7D61 /* MyUITableViewController.m in Sources */,
+				DDB8E0A81F59AFCA009A7D61 /* main.m in Sources */,
+				DDB8E0C21F59B132009A7D61 /* MyUINavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB8E0AF1F59AFCA009A7D61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB8E0B01F59AFCA009A7D61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB8E0B71F59AFCB009A7D61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB8E0B81F59AFCB009A7D61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB8E0BB1F59AFCB009A7D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB8E0BC1F59AFCB009A7D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB8E0BE1F59AFCB009A7D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BalletJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DEW.BalletJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB8E0BF1F59AFCB009A7D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BalletJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DEW.BalletJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB8E09E1F59AFCA009A7D61 /* Build configuration list for PBXProject "BalletJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB8E0BB1F59AFCB009A7D61 /* Debug */,
+				DDB8E0BC1F59AFCB009A7D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB8E0BD1F59AFCB009A7D61 /* Build configuration list for PBXNativeTarget "BalletJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB8E0BE1F59AFCB009A7D61 /* Debug */,
+				DDB8E0BF1F59AFCB009A7D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDB8E0B21F59AFCA009A7D61 /* BalletJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDB8E0B31F59AFCA009A7D61 /* BalletJournal.xcdatamodel */,
+			);
+			currentVersion = DDB8E0B31F59AFCA009A7D61 /* BalletJournal.xcdatamodel */;
+			path = BalletJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDB8E09B1F59AFCA009A7D61 /* Project object */;
+}
